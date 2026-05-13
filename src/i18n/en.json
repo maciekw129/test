@@ -1,0 +1,293 @@
+{
+  "auth": {
+    "login": {
+      "button-google-signin": "Log in via Google",
+      "button-register": "Register",
+      "button-signin": "Log in",
+      "confirm": {
+        "part1": "I have read the ",
+        "part2": "Service Terms ",
+        "part3": "and Conditions, and I consent to the processing of my personal data in accordance with the ",
+        "part4": "Privacy Policy."
+      },
+      "email-required": "E-mail is required",
+      "form-email": "E-mail",
+      "form-password": "Password",
+      "invalid-form-data": "Invalid data",
+      "or": "Or",
+      "password-required": "Password is required",
+      "register-account": "Don't have an account yet?",
+      "regulamin-must-be-checked": "Confirm that you have read the regulations",
+      "resend-code": {
+        "button": "Resend activation e-mail",
+        "info": "Please activate your account first. If you do not received activation email resend it.",
+        "message": "Activation link have been sent."
+      }
+    },
+    "register": {
+      "button-google-signin": "Register via Google"
+    },
+    "registration": {
+      "app-activate-registration": {
+        "fail": "Your account was not activated. Please register again.",
+        "success": "Thank you! Your account is ready!"
+      }
+    }
+  },
+  "components": {
+    "app-new-password": {
+      "confirm-new-password": "Confirm password",
+      "new-password": "Password",
+      "new-password-required": "Password is required",
+      "password-not-equal": "Password are not equal"
+    }
+  },
+  "core": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "close": "Close",
+    "company-select": {
+      "add": "Add new",
+      "settings": "Settings",
+      "subscription": "As part of the subscription:",
+      "title": "Select a company"
+    },
+    "company": {
+      "add": {
+        "accountant-type": "Accountant Type",
+        "button": "Add company",
+        "company-type": "Company Type",
+        "downloadGus": "Download company details from GUS",
+        "error": "Select price box, insert Tax ID and download company details from GUS.",
+        "goHome": "Go to homepage",
+        "goodByeMessage": "Don't want to create a company? Go to the home page and wait for an invitation.",
+        "info": {
+          "line1": "Regardless of the chosen package, in the first month we give you the opportunity to test the application.",
+          "line2": "You receive scan limits equivalent to those in the BIZNES GOLD package.",
+          "line3": "However, we encourage you to choose the BIZNES GOLD package and potentially change it after 30 days.",
+          "line4": "We send a pro forma invoice 14 days before the account expires. You can change the package at any time.",
+          "line5": "If you do not pay the pro forma invoice, we will automatically change your package to the FREE version without any charges."
+        },
+        "nip": "Tax ID",
+        "nip-required": "Invalid NIP format (10 digits), or fields not filled in.",
+        "price-boxes": "Choose your price box.",
+        "select-pricebox": "Select price box",
+        "success": "Your company have been added"
+      },
+      "suppliers": {
+        "accountNumber": "Account Number",
+        "accountNumber-invalid": "Invalid format. Polish account number have 26 disgits.",
+        "business": "Busines",
+        "city": "City",
+        "country": "Country",
+        "country-required": "This field is required.",
+        "country.placeholder": "Start typing...",
+        "currency": "Currency",
+        "email": "e-mail",
+        "email-invalid": "Invalid e-mail",
+        "firstname": "First name",
+        "lastname": "Last name",
+        "name": "Name",
+        "nip": "Tax ID",
+        "number": "Number",
+        "phone": "Phone",
+        "postalcode": "Postal code",
+        "postalcode-invalid": "Format dd-ddd",
+        "private": "Private",
+        "street": "Street"
+      },
+      "suppliersName": "Supplier name"
+    },
+    "confirm": "Confirm",
+    "contracts": "Contracts",
+    "edit": "Edit",
+    "errors": {
+      "ACCESS_DENIED": "Access denied.",
+      "ACCOUNT_ALREADY_USED": "This account number is already in use. If this is your account, please contact us.",
+      "ADDON_REMOVED_TOO_EARLY": "The add-on can be removed after 31 days.",
+      "ALREADY_EXISTS": "This resource already exists.",
+      "ELIKSIR_MAX_40": "You can generate a package for up to 40 invoices at a time.",
+      "GUS_COMPANY_NOT_ACTIVE": "The company is not active.",
+      "GUS_ERROR": "Failed to retrieve data from GUS.",
+      "ILLEGAL_ARGUMENT": "The data entered is invalid.",
+      "INVALID_INVOICE_PATTERN": "Invalid invoice format.",
+      "NIP_ALREADY_EXISTS": "This Tax ID already exists.",
+      "NOT_EDITABLE": "The document cannot be edited.",
+      "NOT_FOUND": "This resource does not exist.",
+      "NO_TITLE_FOUND": "No title found.",
+      "PRICE_BOX_DOWNGRADE_TOO_EARLY": "The package can be downgraded after 31 days.",
+      "PROCESS_ALREADY_CLOSED": "Process is closed, it cannot be edited. Reopen the process.",
+      "PROCESS_FOR_DOCUMENT_EXISTS": "Process for the selected document already exists.",
+      "QUOTA_LIMIT_REACHED": "You have reached your limit, upgrade your plan or add an Add-on.",
+      "TOO_BIG_FILE": "File too large, maximum size 5MB.",
+      "TOO_MANY_PAGES": "File scanning allowed for a maximum of 20 pages.",
+      "UNKNOWN": "Unknown error, please try again later.",
+      "UNSUPPORTED_FILE_EXTENSION": "Invalid file type, allowed formats: PDF, PNG, JPG.",
+      "VIP_PRICE_BOX_CANNOT_BE_CHANGED": "The VIP package is modified individually. Please contact us.",
+      "error-dialog": {
+        "close-button": "Close",
+        "info": "The operation could not be completed.",
+        "title": "Error"
+      }
+    },
+    "invoice": {
+      "account-number": "Account number",
+      "add-date": "Add date",
+      "comments": "Comments",
+      "comments.reversed-vat-payment": "VAT reverse payment mechanism",
+      "comments.split-payment": "Split payment",
+      "duplicate": "Duplicate",
+      "expense": "Expense",
+      "invoice-city": "Place",
+      "invoice-date": "Invoice Date",
+      "lines": {
+        "discount-percentage": "Discount percentage",
+        "discount-value": "Discount value",
+        "name": "Title",
+        "price-brutto": "Price brutto",
+        "price-brutto-to-pay": "To pay",
+        "price-netto": "Price netto",
+        "quantity": "Quantity",
+        "unit": "Unit",
+        "unit-price-netto": "Unit price netto",
+        "vat": "Vat"
+      },
+      "numbering-type": "Numbering type",
+      "payment-date": "Payment date",
+      "payment-deadline": "Add days",
+      "payment-status": "Payment state",
+      "payment-status.IN_PAYMENT": "Payment in progress",
+      "payment-status.NEW": "New",
+      "payment-status.NOT_PAYABLE": "Not payable",
+      "payment-status.PAID": "Paid",
+      "payment-status.TO_PAID": "Not paid",
+      "payment-type": "Payment type",
+      "payment-type.cash": "Cash",
+      "payment-type.transfer": "Transfer",
+      "sell-date": "Sell date",
+      "title": "Invoice number",
+      "type": "Type"
+    },
+    "invoices": "Invoices",
+    "language": "Language",
+    "loading-dialog": {
+      "info": "Please be patient.",
+      "title": "Loading data..."
+    },
+    "orders": "Orders",
+    "save": "Submit",
+    "transactions": "Transactions",
+    "validation": {
+      "maxlength": "Max number of chars ",
+      "minlength": "Min number of chars ",
+      "required": "This field is required"
+    }
+  },
+  "features": {
+    "company-settings": {
+      "general": "General",
+      "settings": "Settings",
+      "suppliers": "Suppliers"
+    },
+    "invoicer": {
+      "components": {
+        "supplier": {
+          "create-supplier": "Create or update supplier",
+          "existing-supplier": "Existing supplier",
+          "find-supplier": "Find Supplier",
+          "find-supplier-existing": "Find existing supplier",
+          "find-supplier-gus": "Download supplier from GUS",
+          "placeholder": "Start typing..."
+        }
+      },
+      "home": {
+        "welcomeMessage": "Thank you for choosing Autofaktury."
+      },
+      "invoices": {
+        "add": {
+          "add-file-button": "Add file",
+          "full": {
+            "duplicate-found": "Duplicate found",
+            "invalid-document-type": "Only type 'Document' can be marked as Not payable",
+            "to-big-file": "To big file, max size 5mb"
+          },
+          "parsing-part1": "Scanning your document is in progress; it may take a few minutes.",
+          "parsing-part2": "Please be patient.",
+          "remove-file-button": "Remove file",
+          "verify-data": "MAKE SURE THE DATA IS CORRECT."
+        },
+        "components": {
+          "invoice-duplicate": {
+            "delete-duplicate": "Delete duplicate",
+            "duplicate-found": "System found DUPLICATE.",
+            "not-duplicate": "If this is not a duplicate, please change the invoice number.",
+            "open-original": "Open original"
+          },
+          "lines": {
+            "compress-lines": "Compress to one line",
+            "delete-discount": "Delete discount",
+            "invoice-positions": "Invoice items",
+            "percentage-discount": "Percentage discount",
+            "value-discount": "Value discount"
+          },
+          "supplier": {
+            "buyer": "Buyer",
+            "seller": "Seller"
+          },
+          "top-info": {
+            "confirm-message": "Changing patter will also change invoice number."
+          }
+        }
+      }
+    }
+  },
+  "model": {
+    "company": {
+      "address": {
+        "active": "Active",
+        "activeNO": "NO",
+        "activeYES": "YES",
+        "city": "City",
+        "commune": "Commune",
+        "district": "District",
+        "number": "Number",
+        "postalCode": "Postal Code",
+        "street": "Street",
+        "voivodeship": "Voivodeship"
+      },
+      "priceBox": {
+        "activeNO": "NO",
+        "activeYES": "YES",
+        "addons": {
+          "files": "scans",
+          "name": "Addon",
+          "price": "Price",
+          "space": "MB additional space",
+          "users": "additional users"
+        },
+        "currency-month": "PLN brutto/month",
+        "monthlyQuota": {
+          "features": {
+            "elixirGeneration": "Elixir file feneration",
+            "gmailConnection": "Gmail connection",
+            "importReports": "Import reports",
+            "nightImportEmails": "Nightly invoice import from email"
+          },
+          "generate": "Generate invoice limit",
+          "generate.noLimit": "No limit",
+          "manualImport": "Manual Import limit",
+          "scan": "Page scan limit:",
+          "space": "Space limit",
+          "user": "User limit"
+        }
+      }
+    }
+  },
+  "shared": {
+    "components": {
+      "auto-select": {
+        "placeholder": "Start typing..."
+      }
+    }
+  }
+}

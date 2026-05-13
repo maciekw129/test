@@ -1,0 +1,27 @@
+.multi-select-chips-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 16px;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+              0 8px 10px 1px rgba(0, 0, 0, 0.14),
+              0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+mat-chip-grid {
+  &.cdk-drop-list-dragging .mat-mdc-chip-row:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+}

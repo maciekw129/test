@@ -1,0 +1,30 @@
+<div class="multi-select-chips-container">
+  <mat-chip-grid #chipGrid [disabled]="disabled" cdkDropList cdkDropListOrientation="horizontal" (cdkDropListDropped)="drop($event)">
+    @for (opt of selectedOptions(); track opt.value) {
+      <mat-chip-row (removed)="remove(opt.value)" cdkDrag>
+        {{ opt.label }}
+        <button matChipRemove [attr.aria-label]="'remove ' + opt.label">
+          <mat-icon>cancel</mat-icon>
+        </button>
+      </mat-chip-row>
+    }
+
+    <input [placeholder]="placeholder"
+           #chipInput
+           [ngModel]="searchQuery()"
+           (ngModelChange)="searchQuery.set($event)"
+           [matChipInputFor]="chipGrid"
+           [matAutocomplete]="auto"
+           (focus)="onFocus()"
+           (blur)="onBlur()"
+           [disabled]="disabled" />
+  </mat-chip-grid>
+
+  <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event); chipInput.value = ''">
+    @for (opt of filteredOptions(); track opt.value) {
+      <mat-option [value]="opt.value">
+        {{ opt.label }}
+      </mat-option>
+    }
+  </mat-autocomplete>
+</div>

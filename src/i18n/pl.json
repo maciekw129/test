@@ -1,0 +1,293 @@
+{
+  "auth": {
+    "login": {
+      "button-google-signin": "Zaloguj przez Google",
+      "button-register": "Zarejestruj",
+      "button-signin": "Zaloguj",
+      "confirm": {
+        "part1": "Zapoznałam/-em się z ",
+        "part2": "Regulaminem Serwisu ",
+        "part3": " i wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z ",
+        "part4": "Polityką Prywatności."
+      },
+      "email-required": "E-mail jest wymagany",
+      "form-email": "E-mail",
+      "form-password": "Hasło",
+      "invalid-form-data": "Niepoprawne dane",
+      "or": "Lub",
+      "password-required": "Hasło jest wymagane",
+      "register-account": "Nie masz jeszcze konta?",
+      "regulamin-must-be-checked": "Potwierdź, że przeczytałeś regulamin",
+      "resend-code": {
+        "button": "Wyślij e-mail aktywacyjny",
+        "info": "Najpierw aktywuj swoje konto. Jeśli nie otrzymałeś wiadomości e-mail z linkiem aktywacyjnym, wyślij ją ponownie.",
+        "message": "Link aktywacyjny został wysłany."
+      }
+    },
+    "register": {
+      "button-google-signin": "Zarejestruj przez google"
+    },
+    "registration": {
+      "app-activate-registration": {
+        "fail": "Nie udało się aktywować konta. Zarejestruj się ponownie.",
+        "success": "Dziękujemy! Twoje konto zostało aktywowane!"
+      }
+    }
+  },
+  "components": {
+    "app-new-password": {
+      "confirm-new-password": "Powtórz hasło",
+      "new-password": "Hasło",
+      "new-password-required": "Hasło jest wymagane",
+      "password-not-equal": "Hasła nie są takie same"
+    }
+  },
+  "core": {
+    "add": "Dodaj",
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "company-select": {
+      "add": "Dodaj nową",
+      "settings": "Ustawienia",
+      "subscription": "W ramach abonamentu:",
+      "title": "Wybierz firmę"
+    },
+    "company": {
+      "add": {
+        "accountant-type": "Pakiet dla księgowych",
+        "button": "Dodaj firmę",
+        "company-type": "Pakiet dla firm",
+        "downloadGus": "Pobierz z GUS",
+        "error": "Wybierz pakiet cenowy, wprowadź NIP i pobierz dane z GUS.",
+        "goHome": "Przejdź na stronę główną",
+        "goodByeMessage": "Nie chcesz zakładać firmy? Przejdź na stronę główną i poczekaj na zaproszenie.",
+        "info": {
+          "line1": "Niezależnie od wybranego pakietu, w pierwszym miesiącu dajemy Ci możliwość przetestowania aplikacji.",
+          "line2": "Dostajesz od nas limity skanowań takie jak w BIZNES GOLD.",
+          "line3": "Mimo wszystko zachęcamy do wyboru pakietu BIZNES GOLD i ewentualnej zmiany po 30 dniach.",
+          "line4": "Fakturę proforma wysyłamy na 14 dni przed upływem ważności konta. Zmienić pakiet możesz w dowolnym momencie.",
+          "line5": "Jeżeli nie opłacisz faktury pro forma, automatycznie zmienimy Twój pakiet na wersję FREE bez żadnych opłat."
+        },
+        "nip": "Nip",
+        "nip-required": "Nieprawidłowy format NIP'u(10 cyfr) lub pole nie wypełnione.",
+        "price-boxes": "Wybierz swój pakiet cenowy.",
+        "select-pricebox": "Wybierz pakiet",
+        "success": "Poprawnie dodano firmę!!"
+      },
+      "suppliers": {
+        "accountNumber": "Numer Konta",
+        "accountNumber-invalid": "Nieprawidłowy format. Polskie numer konta to 26 cyfr.",
+        "business": "Firma",
+        "city": "Miasto",
+        "country": "Kraj",
+        "country-required": "To pole jest wymagane.",
+        "country.placeholder": "Zacznij pisać...",
+        "currency": "Waluta",
+        "email": "e-mail",
+        "email-invalid": "Nieprawidłowy format adresu e-mail",
+        "firstname": "Imię",
+        "lastname": "Nazwisko",
+        "name": "Nazwa",
+        "nip": "NIP",
+        "number": "Numer",
+        "phone": "Telefon",
+        "postalcode": "Kod pocztowy",
+        "postalcode-invalid": "Format dd-ddd",
+        "private": "Osoba prywatna",
+        "street": "Ulica"
+      },
+      "suppliersName": "Nazwa kontrahenta"
+    },
+    "confirm": "Potwierdź",
+    "contracts": "Umowy",
+    "edit": "Edytuj",
+    "errors": {
+      "ACCESS_DENIED": "Brak dostępu.",
+      "ACCOUNT_ALREADY_USED": "Ten numer konta jest już zajęty. Jeżeli to Twoje konto, skontaktuj się z nami.",
+      "ADDON_REMOVED_TOO_EARLY": "Dodatek można usunąć po 31 dniach.",
+      "ALREADY_EXISTS": "Ten zasób już istnieje.",
+      "ELIKSIR_MAX_40": "Jednorazowo możesz wygenerować paczkę dla 40 faktur na raz.",
+      "GUS_COMPANY_NOT_ACTIVE": "Firma nie jest aktywna.",
+      "GUS_ERROR": "Nie udało się pobrać danych z GUS.",
+      "ILLEGAL_ARGUMENT": "Wprowadzone dane są niepoprawne.",
+      "INVALID_INVOICE_PATTERN": "Niewłaściwy format faktury.",
+      "NIP_ALREADY_EXISTS": "Ten NIP już istnieje.",
+      "NOT_EDITABLE": "Dokumentu nie można edytować.",
+      "NOT_FOUND": "Ten zasób nie istnieje.",
+      "NO_TITLE_FOUND": "Nie znaleziono tytułu.",
+      "PRICE_BOX_DOWNGRADE_TOO_EARLY": "Pakiet można zmienić na mniejszy po 31 dniach.",
+      "PROCESS_ALREADY_CLOSED": "Proces zakończony, nie można edytować. Otwórz proces na nowo.",
+      "PROCESS_FOR_DOCUMENT_EXISTS": "Proces z wybranym dokumentem już istnieje.",
+      "QUOTA_LIMIT_REACHED": "Wykorzystałeś swój limit, zwiększ pakiet lub dodaj Dodatek.",
+      "TOO_BIG_FILE": "Za duży plik, maksymalnie 5MB.",
+      "TOO_MANY_PAGES": "Możliwość skanowania pliku, max 20 stron.",
+      "UNKNOWN": "Nieznany błąd, spróbój ponownie poźniej.",
+      "UNSUPPORTED_FILE_EXTENSION": "Zły typ pliku, dozwolone formaty: PDF, PNG, JPG.",
+      "VIP_PRICE_BOX_CANNOT_BE_CHANGED": "Pakiet VIP jest modyfikowany indywidualnie. Skontaktuj się z nami.",
+      "error-dialog": {
+        "close-button": "Zamknij",
+        "info": "Nie udało się wykonać operacji.",
+        "title": "Błąd"
+      }
+    },
+    "invoice": {
+      "account-number": "Numer konta",
+      "add-date": "Data dodania",
+      "comments": "Uwagi",
+      "comments.reversed-vat-payment": "Mechanizm odwróconej płatności VAT",
+      "comments.split-payment": "Split payment - mechanizm podzielonej płatności VAT",
+      "duplicate": "Duplikat",
+      "expense": "Koszt",
+      "invoice-city": "Miejsce",
+      "invoice-date": "Data wystawienia",
+      "lines": {
+        "discount-percentage": "Rabat procentowy",
+        "discount-value": "Rabat kwotowy",
+        "name": "Nazwa",
+        "price-brutto": "Wartość brutto",
+        "price-brutto-to-pay": "Do zapłaty",
+        "price-netto": "Wartość netto",
+        "quantity": "Ilość",
+        "unit": "j. m.",
+        "unit-price-netto": "Cena jednostkowa netto",
+        "vat": "Vat"
+      },
+      "numbering-type": "Typ numeracji",
+      "payment-date": "Data płatności",
+      "payment-deadline": "Dodaj dni",
+      "payment-status": "Status płatności",
+      "payment-status.IN_PAYMENT": "Płatność w toku",
+      "payment-status.NEW": "Nowa",
+      "payment-status.NOT_PAYABLE": "Nie dotyczy",
+      "payment-status.PAID": "Opłacone",
+      "payment-status.TO_PAID": "Do opłacenia",
+      "payment-type": "Typ płatności",
+      "payment-type.cash": "Gotówka",
+      "payment-type.transfer": "Przelew",
+      "sell-date": "Data sprzedaży",
+      "title": "Numer faktury",
+      "type": "Typ"
+    },
+    "invoices": "Faktury",
+    "language": "Język",
+    "loading-dialog": {
+      "info": "Proszę o cierpliwość.",
+      "title": "Ładuję dane..."
+    },
+    "orders": "Zamówienia",
+    "save": "Zapisz",
+    "transactions": "Transakcje",
+    "validation": {
+      "maxlength": "Maksymalna ilość znaków to ",
+      "minlength": "Minimalna ilość znaków to",
+      "required": "To pole jest wymagane"
+    }
+  },
+  "features": {
+    "company-settings": {
+      "general": "Ogólne",
+      "settings": "Ustawienia",
+      "suppliers": "Kontrahenci"
+    },
+    "invoicer": {
+      "components": {
+        "supplier": {
+          "create-supplier": "Stwórz lub zaktualizuj kontrahenta",
+          "existing-supplier": "Istniejący kontrahent",
+          "find-supplier": "Znajdź kontrahenta",
+          "find-supplier-existing": "Znajdź istniejącego kontrahenta.",
+          "find-supplier-gus": "Pobierz dane kontrahenta z GUS",
+          "placeholder": "Zacznij pisać..."
+        }
+      },
+      "home": {
+        "welcomeMessage": "Dziękujemy za wybór Autofaktury.pl."
+      },
+      "invoices": {
+        "add": {
+          "add-file-button": "Dodaj dokument",
+          "full": {
+            "duplicate-found": "System rozpoznał duplikat",
+            "invalid-document-type": "Tylko typ 'Document' mozna oznaczyc jako 'Nie dotyczy'",
+            "to-big-file": "Za duży plik, maksymalny rozmiar to 5mb"
+          },
+          "parsing-part1": "Trwa analiza Twojego dokumentu, może to potrwać kilka minut.",
+          "parsing-part2": "Proszę o cierpliwość.",
+          "remove-file-button": "Usuń dokument",
+          "verify-data": "UPEWNIJ SIĘ ŻE DANE SĄ POPRAWNE."
+        },
+        "components": {
+          "invoice-duplicate": {
+            "delete-duplicate": "Usuń duplikat",
+            "duplicate-found": "System rozpoznał dokumnet jako DUPLIKAT.",
+            "not-duplicate": "Jeżeli dokument nie jest duplikatem, zmień numer faktury.",
+            "open-original": "Otwórz oryginał"
+          },
+          "lines": {
+            "compress-lines": "Skompresuj do jednej lini",
+            "delete-discount": "Usuń rabat",
+            "invoice-positions": "Pozycje",
+            "percentage-discount": "Rabat procentowy",
+            "value-discount": "Rabat kwotowy"
+          },
+          "supplier": {
+            "buyer": "Nabywca",
+            "seller": "Sprzedawca"
+          },
+          "top-info": {
+            "confirm-message": "Zmiana spowoduje również zmianę numeru faktury."
+          }
+        }
+      }
+    }
+  },
+  "model": {
+    "company": {
+      "address": {
+        "active": "Firma aktywna",
+        "activeNO": "NIE",
+        "activeYES": "TAK",
+        "city": "Miasto",
+        "commune": "Gmina",
+        "district": "Powiat",
+        "number": "Numer",
+        "postalCode": "Kod pocztowy",
+        "street": "Ulica",
+        "voivodeship": "Województwo"
+      },
+      "priceBox": {
+        "activeNO": "NIE",
+        "activeYES": "TAK",
+        "addons": {
+          "files": "skanów",
+          "name": "Dodatki",
+          "price": "Cena",
+          "space": "MB dodatkowej przestrzeni",
+          "users": "dodatkowch użytkowników"
+        },
+        "currency-month": "zł brutto/miesiąc",
+        "monthlyQuota": {
+          "features": {
+            "elixirGeneration": "Generowanie plików eliksir",
+            "gmailConnection": "Połączenie ze skrzynką gmail",
+            "importReports": "Raporty importów",
+            "nightImportEmails": "Nocny import faktur z maila"
+          },
+          "generate": "Limit wystawiania faktur",
+          "generate.noLimit": "Bez limitu",
+          "manualImport": "Limit ręcznych importów",
+          "scan": "Limit przeskanowanych stron",
+          "space": "Przestrzeń w chmurze",
+          "user": "Limit użytkowników"
+        }
+      }
+    }
+  },
+  "shared": {
+    "components": {
+      "auto-select": {
+        "placeholder": "Zacznij pisać..."
+      }
+    }
+  }
+}
