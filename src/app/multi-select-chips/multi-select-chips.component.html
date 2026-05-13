@@ -1,8 +1,8 @@
 <div class="multi-select-chips-container">
-  <mat-chip-grid #chipGrid [disabled]="disabled" cdkDropList cdkDropListOrientation="horizontal" (cdkDropListDropped)="drop($event)">
+  <mat-chip-grid #chipGrid [disabled]="disabled" cdkDropList cdkDropListOrientation="vertical" (cdkDropListDropped)="drop($event)">
     @for (opt of selectedOptions(); track opt.value) {
       <mat-chip-row (removed)="remove(opt.value)" cdkDrag>
-        {{ opt.label }}
+        <span class="chip-text-truncate" [title]="opt.label">{{ opt.label }}</span>
         <button matChipRemove [attr.aria-label]="'remove ' + opt.label">
           <mat-icon>cancel</mat-icon>
         </button>
