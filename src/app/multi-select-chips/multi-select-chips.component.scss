@@ -1,9 +1,17 @@
+:host {
+  display: block;
+  width: 100%;
+  min-width: 0;
+}
+
 .multi-select-chips-container {
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-width: 0;
 }
 
+/* Drag and Drop visually */
 .cdk-drag-preview {
   box-sizing: border-box;
   border-radius: 16px;
@@ -20,10 +28,13 @@
   transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 }
 
+/* Grid forced to column */
 mat-chip-grid {
   display: flex !important;
   flex-direction: column !important;
   align-items: stretch !important;
+  width: 100% !important;
+  min-width: 0 !important;
 
   &.cdk-drop-list-dragging .mat-mdc-chip-row:not(.cdk-drag-placeholder) {
     transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
@@ -31,8 +42,10 @@ mat-chip-grid {
 }
 
 ::ng-deep .mdc-evolution-chip-set__chips {
+  display: flex;
   flex-direction: column !important;
   width: 100% !important;
+  min-width: 0 !important;
   gap: 4px;
 }
 
@@ -41,20 +54,23 @@ mat-chip-row {
   max-width: 100%;
   margin: 0 !important;
   justify-content: space-between;
+  box-sizing: border-box;
 
   ::ng-deep .mdc-evolution-chip__cell--primary {
-    flex: 1;
+    flex: 1 1 auto;
     min-width: 0;
     overflow: hidden;
   }
   
   ::ng-deep .mdc-evolution-chip__action--primary {
     width: 100%;
+    min-width: 0;
     overflow: hidden;
   }
   
   ::ng-deep .mat-mdc-chip-action-label {
     width: 100%;
+    min-width: 0;
     overflow: hidden;
   }
 }
@@ -62,6 +78,7 @@ mat-chip-row {
 input.mat-mdc-chip-input {
   width: 100% !important;
   flex: 1 1 100% !important;
+  min-width: 0;
   margin-top: 4px;
 }
 
